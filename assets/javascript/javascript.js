@@ -18,6 +18,7 @@ function addNewButton(){
     var gifs = $("#gif-input").val().trim();
     if (gifs == ""){
       return false; 
+    }
     gifs.push(gifs);
 
     displayGifButtons();
